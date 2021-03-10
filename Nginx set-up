@@ -1,0 +1,8 @@
+Please use below commands to install nginx in Amazon linux.
+
+sudo amazon-linux-extras install nginx1 - To install linux
+vim /etc/nginx/nginx.conf - to check the nginx config file
+sudo service nginx start - To start the nginx
+sudo service nginx status - To check the nginx status
+
+Note : Make sure whitelist the IP in security group
